@@ -1,3 +1,46 @@
-#slider .container{
-    height: 50vh;
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.02rem;
+}
+
+.navbar{
+    background-color: rgb(39, 39, 39);
+}
+
+.nav-link{
+    margin: 0 0.5rem;
+}
+
+#video{
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+}
+
+#video video{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    opacity: 0.5;
+}
+
+#video .video-text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#video .video-text h1{
+    font-size: 48px;
+    text-transform: uppercase;
 }
