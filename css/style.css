@@ -2,8 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
+a{
+    text-decoration: none;
+}
 body{
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.02rem;
@@ -43,4 +47,44 @@ body{
 #video .video-text h1{
     font-size: 48px;
     text-transform: uppercase;
+}
+
+.about{
+    padding: 2rem;
+}
+
+.portfoy{
+    background-color: rgb(39, 39, 39);
+    padding: 2rem;
+}
+
+.adres {
+    color: #fff;
+    background-color: rgb(39, 39, 39);
+    border: 0;
+    transition-duration:0.5s;
+   
+}
+
+.adres:hover{
+    background-color: #61c4fd;
+    color: black;
+    transition-duration:0.5s;
+}
+
+.portfolio-icons{
+    width: 32px;
+}
+
+.social{
+    padding-left: 0.5rem;
+}
+
+.back-top a i{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.back-top a i:hover{
+    color: #61c4fd;
 }
