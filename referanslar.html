@@ -68,68 +68,41 @@
   </header>
   <!-- HEADER END -->
 
-  <!-- SLIDER -->
-  <section id="video" class="mt-0">
-    <video src="./img/web-video.mp4" autoplay loop muted></video>
+  <!-- Breadcrumb-->
+  <div class="container-fluid breadcrumb-ayrac">
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb text-white">
+        <li class="breadcrumb-item text-white"><a href="#">Anasayfa</a></li>
+        <li class="breadcrumb-item active text-white" aria-current="page">Referanslar</li>
+      </ol>
+    </nav>
+  </div>
+  <!-- Breadcrumb END-->
 
-    <div class="video-text text-center">
-      <h1>Hızlı Ajans'a Hoşgeldiniz</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo impedit id sapiente, quaerat in blanditiis natus
-        veritatis, quisquam consectetur </p>
-      <a href="#" class="btn btn-outline-light">Hizmetlerimiz</a>
-    </div>
-  </section>
-  <!-- SLIDER END-->
+  <!-- PORTFOY/REFERANS ŞEYSİ -->
+  <div class="container my-5">
+    <h1 class="text-center">REFERANSLAR</h1>
 
-  <!-- ABOUT & SKILLS -->
-  <section class="about">
-    <div class="container my-5">
-      <div class="row align-items-center my-5">
-        <div class="col md-6">
-          <div class="about-text">
-            <h3>Kısaca Biz</h3>
-            <h1>HIZLI AJANS</h1>
-            <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, explicabo. Sed doloremque
-              dolorum dolores iste quia adipisci nisi tenetur eius fuga voluptas exercitationem sunt, officia qui
-              voluptate debitis repellat eligendi.
-            </p>
-            <a href="#" class="btn btn-outline-dark">Detaylı Bilgi</a>
-          </div>
+    <div class="row align-items-center my-5">
+
+      <div class="col md-6">
+        <div class="portfoy-text">
+          <h3>Bitmiş Projeler</h3>
+          <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, explicabo. Sed doloremque
+            dolorum dolores iste quia adipisci nisi tenetur eius fuga voluptas exercitationem sunt, officia qui
+            voluptate debitis repellat eligendi.
+          </p>
         </div>
-        <div class="col md-6">
-          <div class="about-img">
-            <img src="./img/main.jpg" alt="" class="img-fluid rounded-1 shadow">
-          </div>
+      </div>
+      <div class="col md-6 order-first">
+        <div class="portfoy-img">
+          <img src="./img/portfolio.png" alt="" class="img-fluid ">
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- ABOUT & SKILLS END -->
-
-  <!-- PORTFOY/REFERANS ŞEYSİ -->
+  </div>
   <section class="portfoy">
     <div class="container my-5">
-      <h1 class="text-center text-light">REFERANSLAR</h1>
-      <!--
-      <div class="row align-items-center my-5">
-
-        <div class="col md-6">
-          <div class="portfoy-text text-light">
-            <h3>Bitmiş Projeler</h3>
-            <p class="mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, explicabo. Sed doloremque
-              dolorum dolores iste quia adipisci nisi tenetur eius fuga voluptas exercitationem sunt, officia qui
-              voluptate debitis repellat eligendi.
-            </p>
-          </div>
-        </div>
-        <div class="col md-6 order-first">
-          <div class="portfoy-img">
-            <img src="./img/portfolio.png" alt="" class="img-fluid ">
-          </div>
-        </div>
-
-      </div>-->
       <div class="row align-items-center my-5">
         <div class="col-lg-3 col-md-6 mb-5">
           <div class="card" style=>
@@ -272,55 +245,9 @@
       </div>
 
     </div>
-  </section>
-  <!-- PORTFOY/REFERANS ŞEYSİ END -->
-
-  <!-- CONTACT -->
-  <section class="contact">
-    <div class="container mt-5 mb-5">
-      <h1 class="text-center">İLETİŞİM</h1>
-      <div class="row pt-5">
-        <div class="col-6">
-          <h6 class="text-center">Sosyal Medya Hesaplarımız</h6>
-
-          <div style="font-size: 1.9rem;" class="text-center border-1 pt-2">
-            <a href="#" class="social"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="social"><i class="bi bi-twitter"></i></a>
-            <a href="#" class="social"><i class="bi bi-instagram" style="color: rgb(122, 43, 226);"></i></a>
-            <a href="#" class="social"><i class="bi bi-youtube" style="color: rgb(236, 31, 31);"></i></a></div>
-
-          <div class="mt-4 text-center">
-            <h6>Telefon</h6>
-            <p>0555 000 00 00</p>
-          </div>
-
-          <div class="mt-4 text-center">
-            <h6>Adres</h6>
-            <p>Adres bilgileri girilecektir.</p>
-          </div>
-
-        </div>
-        <div class="col-6">
-          <h6 class="text-center">İletişim Formu</h6>
-          <div class="mb-3 mt-4">
-            <label for="adSoyad" class="form-label">Ad Soyad</label>
-            <input type="email" class="form-control" id="adSoyad" placeholder="Adınız...">
-          </div>
-          <div class="mb-3">
-            <label for="mail" class="form-label">Email</label>
-            <input type="email" class="form-control" id="mail" placeholder="mail@ornek.com">
-          </div>
-          <div class="mb-3">
-            <label for="mesaj" class="form-label">Mesajınız</label>
-            <textarea class="form-control" id="mesaj" rows="3"></textarea>
-          </div>
-          <button type="submit" class="btn btn-dark text-light float-end">Gönder</button>
-
-        </div>
-      </div>
     </div>
   </section>
-  <!-- CONTACT END-->
+  <!-- PORTFOY/REFERANS ŞEYSİ END -->
 
 
 
